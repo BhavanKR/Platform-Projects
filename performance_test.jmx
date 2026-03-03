@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="9K User Load Test - Bhavankalyan" enabled="true">
+      <stringProp name="TestPlan.comments">Production load test for Workforce modules (Clock In/Out, Performance Mgmt) - Simulated 9000 concurrent users achieving 99.9% uptime</stringProp>
+    </TestPlan>
+    <hashTree/>
+    <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="9K Concurrent Users" enabled="true">
+      <stringProp name="ThreadGroup.num_threads">9000</stringProp>
+      <stringProp name="ThreadGroup.ramp_time">300</stringProp>
+      <stringProp name="ThreadGroup.delay">0</stringProp>
+    </ThreadGroup>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
